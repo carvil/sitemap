@@ -1,0 +1,22 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH.unshift File.expand_path(File.join(File.dirname(__FILE__),'..','lib'))
+
+require 'rubygems'
+require 'thor'
+require 'sitemap'
+
+module Sitemap
+  class CLI < Thor
+    include Thor::Actions
+
+    desc "from URL", "Creates a sitemap from the URL given as param, e.g. from http://carvil.github.com"
+
+    def from(url)
+      Sitemap::Map.create(url)
+    end
+
+  end
+end
+
+Sitemap::CLI.start

@@ -1,0 +1,181 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://dash-it-app.herokuapp.com/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Type:
+      - text/html
+      Date:
+      - Tue, 04 Dec 2012 18:43:40 GMT
+      Location:
+      - http://dash-it-app.herokuapp.com/projects
+      Server:
+      - thin 1.3.1 codename Triple Espresso
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - 35854474717a6f274c43d42c3197ba5f
+      X-Runtime:
+      - '0.000953'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '107'
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: <html><body>You are being <a href="http://dash-it-app.herokuapp.com/projects">redirected</a>.</body></html>
+    http_version: 
+  recorded_at: Tue, 04 Dec 2012 18:43:34 GMT
+- request:
+    method: get
+    uri: http://dash-it-app.herokuapp.com/projects
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Moved Temporarily
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Tue, 04 Dec 2012 18:43:41 GMT
+      Location:
+      - http://dash-it-app.herokuapp.com/users/sign_in
+      Server:
+      - thin 1.3.1 codename Triple Espresso
+      Set-Cookie:
+      - _dash-it_session=BAh7CEkiD3Nlc3Npb25faWQGOgZFRkkiJThmZTUzNTM2NGJhODRiZjg3ZDJlNGM0Yzc0YmRkNTk0BjsAVEkiE3VzZXJfcmV0dXJuX3RvBjsARiIOL3Byb2plY3RzSSIKZmxhc2gGOwBGbzolQWN0aW9uRGlzcGF0Y2g6OkZsYXNoOjpGbGFzaEhhc2gJOgpAdXNlZG86CFNldAY6CkBoYXNoewA6DEBjbG9zZWRGOg1AZmxhc2hlc3sGOgphbGVydEkiNllvdSBuZWVkIHRvIHNpZ24gaW4gb3Igc2lnbiB1cCBiZWZvcmUgY29udGludWluZy4GOwBUOglAbm93MA%3D%3D--0fa43271453fa6832cebda9f59e606461609b575;
+        path=/; HttpOnly
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - f1284c52174e332ac58f06d03ef7be52
+      X-Runtime:
+      - '0.002938'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '112'
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: <html><body>You are being <a href="http://dash-it-app.herokuapp.com/users/sign_in">redirected</a>.</body></html>
+    http_version: 
+  recorded_at: Tue, 04 Dec 2012 18:43:34 GMT
+- request:
+    method: get
+    uri: http://dash-it-app.herokuapp.com/users/sign_in
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Tue, 04 Dec 2012 18:43:41 GMT
+      Etag:
+      - ! '"5f3aeab714b917213d42e6eb33132043"'
+      Server:
+      - thin 1.3.1 codename Triple Espresso
+      Set-Cookie:
+      - _dash-it_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJWUwMDViYWNlNTk2ZjNlYzhjYjg1ZGZiMTVkZjNjNzI1BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMThSY2tlbmcyZFhkeWlyT01rL1Jqc09zUmpzN1F3bVYyLzZIaDZiK0c0WUk9BjsARg%3D%3D--e923fbdb95e64c21eae49534920734f5aa69569c;
+        path=/; HttpOnly
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - fdbb9f9514f0692d132ae542dd43100c
+      X-Runtime:
+      - '0.012190'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '2907'
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE html>\n<html>\n<head>\n  <title>DashIt</title>\n  <link
+        href=\"/assets/application-218e261a28dfbc4a5d182e1d74cfa56d.css\" media=\"all\"
+        rel=\"stylesheet\" type=\"text/css\" />\n  <script src=\"/assets/application-8e2ee2948692900aca4cfa8a45d9478f.js\"
+        type=\"text/javascript\"></script>\n  <meta content=\"authenticity_token\"
+        name=\"csrf-param\" />\n<meta content=\"8Rckeng2dXdyirOMk/RjsOsRjs7QwmV2/6Hh6b+G4YI=\"
+        name=\"csrf-token\" />\n  <script type=\"text/javascript\">\n\n  var _gaq
+        = _gaq || [];\n  _gaq.push(['_setAccount', 'UA-30124350-1']);\n  _gaq.push(['_trackPageview']);\n\n
+        \ (function() {\n    var ga = document.createElement('script'); ga.type =
+        'text/javascript'; ga.async = true;\n    ga.src = ('https:' == document.location.protocol
+        ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n    var
+        s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga,
+        s);\n  })();\n\n</script>\n\n  <meta name=\"viewport\" content=\"width=device-width,
+        initial-scale=1.0\">\n</head>\n<body>\n  <div class=\"container\">\n    <div
+        class=\"row\">\n</div>\n\n    <div id=\"content_wrapper\">\n        <header
+        class=\"jumbotron masthead\">\n          <div class=\"marketing\">\n            <h1>Dash
+        It</h1>\n            <p>simple todos organiser</p>\n          </div>\n        </header>\n
+        \     <div class=\"row equal-heights\" style=\"text-align: center;\">\n  <div
+        class=\"span4 offset4\">\n\n    <form accept-charset=\"UTF-8\" action=\"/users/sign_in\"
+        class=\"form-inline\" id=\"new_user\" method=\"post\"><div style=\"margin:0;padding:0;display:inline\"><input
+        name=\"utf8\" type=\"hidden\" value=\"&#x2713;\" /><input name=\"authenticity_token\"
+        type=\"hidden\" value=\"8Rckeng2dXdyirOMk/RjsOsRjs7QwmV2/6Hh6b+G4YI=\" /></div>\n
+        \     \n      <fieldset>\n        <legend>Sign in</legend>\n        <br/>\n
+        \       <div class=\"control-group\">\n          <div class=\"controls\">\n
+        \           <input id=\"user_email\" name=\"user[email]\" placeholder=\"email\"
+        size=\"30\" type=\"email\" value=\"\" />\n          </div>\n        </div>\n
+        \       <div class=\"control-group\">\n          <div class=\"controls\">\n
+        \           <input id=\"user_password\" name=\"user[password]\" placeholder=\"password\"
+        size=\"30\" type=\"password\" />\n          </div>\n        </div>\n        <div
+        class=\"control-group\">\n          <div class=\"controls\">\n            <input
+        class=\"btn btn-primary\" name=\"commit\" type=\"submit\" value=\"Sign in\"
+        />\n          </div>\n            <br/>\n            <p class=\"help-block\">or
+        sign in with</p>\n            <br/>\n              <a href=\"/users/auth/github\"><img
+        alt=\"Github_32\" src=\"/assets/github_32-ba5dc7eee4765074155e76a524060552.png\"
+        /></a>\n              <a href=\"/users/auth/facebook\"><img alt=\"Facebook_32\"
+        src=\"/assets/facebook_32-9413ef3b6297484f5fc8d19879dec8cc.png\" /></a>\n
+        \       </div>\n      </fieldset>\n</form>    \n  <a href=\"/users/sign_up\">Sign
+        up</a><br />\n\n  <a href=\"/users/password/new\">Forgot your password?</a><br
+        />\n\n\n\n  </div>\n</div>\n\n    </div>\n  </div>\n</body>\n</html>\n"
+    http_version: 
+  recorded_at: Tue, 04 Dec 2012 18:43:35 GMT
+recorded_with: VCR 2.3.0

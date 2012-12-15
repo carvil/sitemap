@@ -1,0 +1,1977 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://dash-it-app.herokuapp.com/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Type:
+      - text/html
+      Date:
+      - Tue, 04 Dec 2012 19:18:08 GMT
+      Location:
+      - http://dash-it-app.herokuapp.com/projects
+      Server:
+      - thin 1.3.1 codename Triple Espresso
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - 2a20ddf22bb1bcbaa181e323c6dd9110
+      X-Runtime:
+      - '0.002662'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '107'
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: <html><body>You are being <a href="http://dash-it-app.herokuapp.com/projects">redirected</a>.</body></html>
+    http_version: 
+  recorded_at: Tue, 04 Dec 2012 19:18:01 GMT
+- request:
+    method: get
+    uri: http://dash-it-app.herokuapp.com/projects
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Moved Temporarily
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Tue, 04 Dec 2012 19:18:08 GMT
+      Location:
+      - http://dash-it-app.herokuapp.com/users/sign_in
+      Server:
+      - thin 1.3.1 codename Triple Espresso
+      Set-Cookie:
+      - _dash-it_session=BAh7CEkiD3Nlc3Npb25faWQGOgZFRkkiJThiYmJiZmIzYjRjMzU0NzQ4YjJmOWU0MmFmMjA3NTJmBjsAVEkiE3VzZXJfcmV0dXJuX3RvBjsARiIOL3Byb2plY3RzSSIKZmxhc2gGOwBGbzolQWN0aW9uRGlzcGF0Y2g6OkZsYXNoOjpGbGFzaEhhc2gJOgpAdXNlZG86CFNldAY6CkBoYXNoewA6DEBjbG9zZWRGOg1AZmxhc2hlc3sGOgphbGVydEkiNllvdSBuZWVkIHRvIHNpZ24gaW4gb3Igc2lnbiB1cCBiZWZvcmUgY29udGludWluZy4GOwBUOglAbm93MA%3D%3D--4c679b9d57d6c3a3e79a0e03be96bb2f90ac4b6b;
+        path=/; HttpOnly
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - 40e65671b017821b82bd3d171fd3ab91
+      X-Runtime:
+      - '0.004213'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '112'
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: <html><body>You are being <a href="http://dash-it-app.herokuapp.com/users/sign_in">redirected</a>.</body></html>
+    http_version: 
+  recorded_at: Tue, 04 Dec 2012 19:18:01 GMT
+- request:
+    method: get
+    uri: http://dash-it-app.herokuapp.com/users/sign_in
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Tue, 04 Dec 2012 19:18:08 GMT
+      Etag:
+      - ! '"006663683b3743db1bb701c44eea2c42"'
+      Server:
+      - thin 1.3.1 codename Triple Espresso
+      Set-Cookie:
+      - _dash-it_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJTE4MjQ5NGM2YWU1MmE0M2FmZmZkMjJjMTZjYzA4M2FiBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMVBJUnJhMkQ1VzJ2ZmxMaUdRM0lDbDIxbERDRXFzbGNRaTIxR21rSjRNc1k9BjsARg%3D%3D--c91df6ea538ada9a5d3f1b48ea426ebab96c3e98;
+        path=/; HttpOnly
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - b1e8593b482e5e68ee9f0907e0b6ccc7
+      X-Runtime:
+      - '0.009180'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '2907'
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE html>\n<html>\n<head>\n  <title>DashIt</title>\n  <link
+        href=\"/assets/application-218e261a28dfbc4a5d182e1d74cfa56d.css\" media=\"all\"
+        rel=\"stylesheet\" type=\"text/css\" />\n  <script src=\"/assets/application-8e2ee2948692900aca4cfa8a45d9478f.js\"
+        type=\"text/javascript\"></script>\n  <meta content=\"authenticity_token\"
+        name=\"csrf-param\" />\n<meta content=\"PIRra2D5W2vflLiGQ3ICl21lDCEqslcQi21GmkJ4MsY=\"
+        name=\"csrf-token\" />\n  <script type=\"text/javascript\">\n\n  var _gaq
+        = _gaq || [];\n  _gaq.push(['_setAccount', 'UA-30124350-1']);\n  _gaq.push(['_trackPageview']);\n\n
+        \ (function() {\n    var ga = document.createElement('script'); ga.type =
+        'text/javascript'; ga.async = true;\n    ga.src = ('https:' == document.location.protocol
+        ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n    var
+        s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga,
+        s);\n  })();\n\n</script>\n\n  <meta name=\"viewport\" content=\"width=device-width,
+        initial-scale=1.0\">\n</head>\n<body>\n  <div class=\"container\">\n    <div
+        class=\"row\">\n</div>\n\n    <div id=\"content_wrapper\">\n        <header
+        class=\"jumbotron masthead\">\n          <div class=\"marketing\">\n            <h1>Dash
+        It</h1>\n            <p>simple todos organiser</p>\n          </div>\n        </header>\n
+        \     <div class=\"row equal-heights\" style=\"text-align: center;\">\n  <div
+        class=\"span4 offset4\">\n\n    <form accept-charset=\"UTF-8\" action=\"/users/sign_in\"
+        class=\"form-inline\" id=\"new_user\" method=\"post\"><div style=\"margin:0;padding:0;display:inline\"><input
+        name=\"utf8\" type=\"hidden\" value=\"&#x2713;\" /><input name=\"authenticity_token\"
+        type=\"hidden\" value=\"PIRra2D5W2vflLiGQ3ICl21lDCEqslcQi21GmkJ4MsY=\" /></div>\n
+        \     \n      <fieldset>\n        <legend>Sign in</legend>\n        <br/>\n
+        \       <div class=\"control-group\">\n          <div class=\"controls\">\n
+        \           <input id=\"user_email\" name=\"user[email]\" placeholder=\"email\"
+        size=\"30\" type=\"email\" value=\"\" />\n          </div>\n        </div>\n
+        \       <div class=\"control-group\">\n          <div class=\"controls\">\n
+        \           <input id=\"user_password\" name=\"user[password]\" placeholder=\"password\"
+        size=\"30\" type=\"password\" />\n          </div>\n        </div>\n        <div
+        class=\"control-group\">\n          <div class=\"controls\">\n            <input
+        class=\"btn btn-primary\" name=\"commit\" type=\"submit\" value=\"Sign in\"
+        />\n          </div>\n            <br/>\n            <p class=\"help-block\">or
+        sign in with</p>\n            <br/>\n              <a href=\"/users/auth/github\"><img
+        alt=\"Github_32\" src=\"/assets/github_32-ba5dc7eee4765074155e76a524060552.png\"
+        /></a>\n              <a href=\"/users/auth/facebook\"><img alt=\"Facebook_32\"
+        src=\"/assets/facebook_32-9413ef3b6297484f5fc8d19879dec8cc.png\" /></a>\n
+        \       </div>\n      </fieldset>\n</form>    \n  <a href=\"/users/sign_up\">Sign
+        up</a><br />\n\n  <a href=\"/users/password/new\">Forgot your password?</a><br
+        />\n\n\n\n  </div>\n</div>\n\n    </div>\n  </div>\n</body>\n</html>\n"
+    http_version: 
+  recorded_at: Tue, 04 Dec 2012 19:18:01 GMT
+- request:
+    method: get
+    uri: http://dash-it-app.herokuapp.com/users/password/new
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Tue, 04 Dec 2012 19:18:09 GMT
+      Etag:
+      - ! '"080dea17fd8c1a361aed2bf4224587ac"'
+      Server:
+      - thin 1.3.1 codename Triple Espresso
+      Set-Cookie:
+      - _dash-it_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJTJiY2U1NWI3ZmQyMzZiY2UyMzY3YmVlMzNkNTQxZTNlBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMXdnZUNmRjVxcmJaQUhLMm50UTB1YkV6VWp3d0ExaWZ6djNrdTJxbW9rb1E9BjsARg%3D%3D--3703b1e2e557c2ac3c1416f950217cddec2a3ded;
+        path=/; HttpOnly
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - 0c0c1400ff74b98a399be6b01d8c9d5a
+      X-Runtime:
+      - '0.008267'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '2359'
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE html>\n<html>\n<head>\n  <title>DashIt</title>\n  <link
+        href=\"/assets/application-218e261a28dfbc4a5d182e1d74cfa56d.css\" media=\"all\"
+        rel=\"stylesheet\" type=\"text/css\" />\n  <script src=\"/assets/application-8e2ee2948692900aca4cfa8a45d9478f.js\"
+        type=\"text/javascript\"></script>\n  <meta content=\"authenticity_token\"
+        name=\"csrf-param\" />\n<meta content=\"wgeCfF5qrbZAHK2ntQ0ubEzUjwwA1ifzv3ku2qmokoQ=\"
+        name=\"csrf-token\" />\n  <script type=\"text/javascript\">\n\n  var _gaq
+        = _gaq || [];\n  _gaq.push(['_setAccount', 'UA-30124350-1']);\n  _gaq.push(['_trackPageview']);\n\n
+        \ (function() {\n    var ga = document.createElement('script'); ga.type =
+        'text/javascript'; ga.async = true;\n    ga.src = ('https:' == document.location.protocol
+        ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n    var
+        s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga,
+        s);\n  })();\n\n</script>\n\n  <meta name=\"viewport\" content=\"width=device-width,
+        initial-scale=1.0\">\n</head>\n<body>\n  <div class=\"container\">\n    <div
+        class=\"row\">\n</div>\n\n    <div id=\"content_wrapper\">\n        <header
+        class=\"jumbotron masthead\">\n          <div class=\"marketing\">\n            <h1>Dash
+        It</h1>\n            <p>simple todos organiser</p>\n          </div>\n        </header>\n
+        \     <div class=\"row equal-heights\" style=\"text-align: center;\">\n  <div
+        class=\"span4 offset4\">\n\n    <form accept-charset=\"UTF-8\" action=\"/users/password\"
+        class=\"form-inline\" id=\"new_user\" method=\"post\"><div style=\"margin:0;padding:0;display:inline\"><input
+        name=\"utf8\" type=\"hidden\" value=\"&#x2713;\" /><input name=\"authenticity_token\"
+        type=\"hidden\" value=\"wgeCfF5qrbZAHK2ntQ0ubEzUjwwA1ifzv3ku2qmokoQ=\" /></div>\n
+        \     \n      <fieldset>\n        <legend>Forgot your password?</legend>\n
+        \       <br/>\n        <div class=\"control-group\">\n          <div class=\"controls\">\n
+        \           <input id=\"user_email\" name=\"user[email]\" placeholder=\"email\"
+        size=\"30\" type=\"email\" value=\"\" />\n          </div>\n        </div>\n
+        \       <div class=\"control-group\">\n          <div class=\"controls\">\n
+        \           <input class=\"btn btn-primary\" name=\"commit\" type=\"submit\"
+        value=\"Send me reset password instructions\" />\n          </div>\n        </div>\n
+        \     </fieldset>\n</form>      <a href=\"/users/sign_in\">Sign in</a><br
+        />\n\n  <a href=\"/users/sign_up\">Sign up</a><br />\n\n\n\n\n  </div>\n</div>\n\n\n
+        \   </div>\n  </div>\n</body>\n</html>\n"
+    http_version: 
+  recorded_at: Tue, 04 Dec 2012 19:18:02 GMT
+- request:
+    method: get
+    uri: http://dash-it-app.herokuapp.com/users/sign_up
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Tue, 04 Dec 2012 19:18:09 GMT
+      Etag:
+      - ! '"d6df2292f2d93206c962b1f3677bceec"'
+      Server:
+      - thin 1.3.1 codename Triple Espresso
+      Set-Cookie:
+      - _dash-it_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJTM0NDE2ZjgxZmZkODdiMmQ5NTMzOWI1NTE5MTE2ZGMxBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMWVreCt6ZmVsZjY2ZlRiVEYvOGQ0dnVBdzUyUnUrbTBxOUNCNkZyZzJJeWs9BjsARg%3D%3D--4468134d454b46e819cf47511218a42d53228449;
+        path=/; HttpOnly
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - 780a5c5b528d161f4f5dc371779901a2
+      X-Runtime:
+      - '0.007064'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '2792'
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE html>\n<html>\n<head>\n  <title>DashIt</title>\n  <link
+        href=\"/assets/application-218e261a28dfbc4a5d182e1d74cfa56d.css\" media=\"all\"
+        rel=\"stylesheet\" type=\"text/css\" />\n  <script src=\"/assets/application-8e2ee2948692900aca4cfa8a45d9478f.js\"
+        type=\"text/javascript\"></script>\n  <meta content=\"authenticity_token\"
+        name=\"csrf-param\" />\n<meta content=\"ekx+zfelf66fTbTF/8d4vuAw52Ru+m0q9CB6Frg2Iyk=\"
+        name=\"csrf-token\" />\n  <script type=\"text/javascript\">\n\n  var _gaq
+        = _gaq || [];\n  _gaq.push(['_setAccount', 'UA-30124350-1']);\n  _gaq.push(['_trackPageview']);\n\n
+        \ (function() {\n    var ga = document.createElement('script'); ga.type =
+        'text/javascript'; ga.async = true;\n    ga.src = ('https:' == document.location.protocol
+        ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n    var
+        s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga,
+        s);\n  })();\n\n</script>\n\n  <meta name=\"viewport\" content=\"width=device-width,
+        initial-scale=1.0\">\n</head>\n<body>\n  <div class=\"container\">\n    <div
+        class=\"row\">\n</div>\n\n    <div id=\"content_wrapper\">\n        <header
+        class=\"jumbotron masthead\">\n          <div class=\"marketing\">\n            <h1>Dash
+        It</h1>\n            <p>simple todos organiser</p>\n          </div>\n        </header>\n
+        \     <div class=\"row equal-heights\" style=\"text-align: center;\">\n  <div
+        class=\"span4 offset4\">\n\n    <form accept-charset=\"UTF-8\" action=\"/users\"
+        class=\"form-inline\" id=\"new_user\" method=\"post\"><div style=\"margin:0;padding:0;display:inline\"><input
+        name=\"utf8\" type=\"hidden\" value=\"&#x2713;\" /><input name=\"authenticity_token\"
+        type=\"hidden\" value=\"ekx+zfelf66fTbTF/8d4vuAw52Ru+m0q9CB6Frg2Iyk=\" /></div>\n
+        \     \n      <fieldset>\n        <legend>Sign up</legend>\n        <br/>\n
+        \       <div class=\"control-group\">\n          <div class=\"controls\">\n
+        \           <input id=\"user_email\" name=\"user[email]\" placeholder=\"email\"
+        size=\"30\" type=\"email\" value=\"\" />\n          </div>\n        </div>\n
+        \       <div class=\"control-group\">\n          <div class=\"controls\">\n
+        \           <input id=\"user_password\" name=\"user[password]\" placeholder=\"password\"
+        size=\"30\" type=\"password\" />\n          </div>\n        </div>\n        <div
+        class=\"control-group\">\n          <div class=\"controls\">\n            <input
+        id=\"user_password_confirmation\" name=\"user[password_confirmation]\" placeholder=\"password
+        confirmation\" size=\"30\" type=\"password\" />\n          </div>\n        </div>\n
+        \       <div class=\"control-group\">\n          <div class=\"controls\">\n
+        \           <input class=\"btn btn-primary\" name=\"commit\" type=\"submit\"
+        value=\"Sign up\" />\n          </div>\n        </div>\n      </fieldset>\n</form>
+        \     <a href=\"/users/sign_in\">Sign in</a><br />\n\n\n  <a href=\"/users/password/new\">Forgot
+        your password?</a><br />\n\n\n\n  </div>\n</div>\n\n\n    </div>\n  </div>\n</body>\n</html>\n"
+    http_version: 
+  recorded_at: Tue, 04 Dec 2012 19:18:02 GMT
+- request:
+    method: get
+    uri: http://dash-it-app.herokuapp.com/users/sign_in
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Tue, 04 Dec 2012 19:18:09 GMT
+      Etag:
+      - ! '"970b310d6b983e4342f8d389a93120f7"'
+      Server:
+      - thin 1.3.1 codename Triple Espresso
+      Set-Cookie:
+      - _dash-it_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJWU4ODNjNmVmNjlhMDA5NzFmMDY1MGUyMjkxYWI5NDVmBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMXpoTUU4eEx3VitwejFMNmF0ZnNtZVRGdGR0YldoeENucjNUWHZyQlBJK1k9BjsARg%3D%3D--4fa8b98428bf3119a5cbeb6e7494f65e004a5589;
+        path=/; HttpOnly
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - 502a508d1b85579163f73ad76ca0db74
+      X-Runtime:
+      - '0.005824'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '2907'
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE html>\n<html>\n<head>\n  <title>DashIt</title>\n  <link
+        href=\"/assets/application-218e261a28dfbc4a5d182e1d74cfa56d.css\" media=\"all\"
+        rel=\"stylesheet\" type=\"text/css\" />\n  <script src=\"/assets/application-8e2ee2948692900aca4cfa8a45d9478f.js\"
+        type=\"text/javascript\"></script>\n  <meta content=\"authenticity_token\"
+        name=\"csrf-param\" />\n<meta content=\"zhME8xLwV+pz1L6atfsmeTFtdtbWhxCnr3TXvrBPI+Y=\"
+        name=\"csrf-token\" />\n  <script type=\"text/javascript\">\n\n  var _gaq
+        = _gaq || [];\n  _gaq.push(['_setAccount', 'UA-30124350-1']);\n  _gaq.push(['_trackPageview']);\n\n
+        \ (function() {\n    var ga = document.createElement('script'); ga.type =
+        'text/javascript'; ga.async = true;\n    ga.src = ('https:' == document.location.protocol
+        ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n    var
+        s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga,
+        s);\n  })();\n\n</script>\n\n  <meta name=\"viewport\" content=\"width=device-width,
+        initial-scale=1.0\">\n</head>\n<body>\n  <div class=\"container\">\n    <div
+        class=\"row\">\n</div>\n\n    <div id=\"content_wrapper\">\n        <header
+        class=\"jumbotron masthead\">\n          <div class=\"marketing\">\n            <h1>Dash
+        It</h1>\n            <p>simple todos organiser</p>\n          </div>\n        </header>\n
+        \     <div class=\"row equal-heights\" style=\"text-align: center;\">\n  <div
+        class=\"span4 offset4\">\n\n    <form accept-charset=\"UTF-8\" action=\"/users/sign_in\"
+        class=\"form-inline\" id=\"new_user\" method=\"post\"><div style=\"margin:0;padding:0;display:inline\"><input
+        name=\"utf8\" type=\"hidden\" value=\"&#x2713;\" /><input name=\"authenticity_token\"
+        type=\"hidden\" value=\"zhME8xLwV+pz1L6atfsmeTFtdtbWhxCnr3TXvrBPI+Y=\" /></div>\n
+        \     \n      <fieldset>\n        <legend>Sign in</legend>\n        <br/>\n
+        \       <div class=\"control-group\">\n          <div class=\"controls\">\n
+        \           <input id=\"user_email\" name=\"user[email]\" placeholder=\"email\"
+        size=\"30\" type=\"email\" value=\"\" />\n          </div>\n        </div>\n
+        \       <div class=\"control-group\">\n          <div class=\"controls\">\n
+        \           <input id=\"user_password\" name=\"user[password]\" placeholder=\"password\"
+        size=\"30\" type=\"password\" />\n          </div>\n        </div>\n        <div
+        class=\"control-group\">\n          <div class=\"controls\">\n            <input
+        class=\"btn btn-primary\" name=\"commit\" type=\"submit\" value=\"Sign in\"
+        />\n          </div>\n            <br/>\n            <p class=\"help-block\">or
+        sign in with</p>\n            <br/>\n              <a href=\"/users/auth/github\"><img
+        alt=\"Github_32\" src=\"/assets/github_32-ba5dc7eee4765074155e76a524060552.png\"
+        /></a>\n              <a href=\"/users/auth/facebook\"><img alt=\"Facebook_32\"
+        src=\"/assets/facebook_32-9413ef3b6297484f5fc8d19879dec8cc.png\" /></a>\n
+        \       </div>\n      </fieldset>\n</form>    \n  <a href=\"/users/sign_up\">Sign
+        up</a><br />\n\n  <a href=\"/users/password/new\">Forgot your password?</a><br
+        />\n\n\n\n  </div>\n</div>\n\n    </div>\n  </div>\n</body>\n</html>\n"
+    http_version: 
+  recorded_at: Tue, 04 Dec 2012 19:18:02 GMT
+- request:
+    method: get
+    uri: http://dash-it-app.herokuapp.com/users/auth/facebook
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Moved Temporarily
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Type:
+      - text/html
+      Date:
+      - Tue, 04 Dec 2012 19:18:10 GMT
+      Location:
+      - https://graph.facebook.com/oauth/authorize?response_type=code&client_id=173966559389284&redirect_uri=http%3A%2F%2Fdash-it-app.herokuapp.com%2Fusers%2Fauth%2Ffacebook%2Fcallback&scope=email%2Coffline_access
+      Server:
+      - thin 1.3.1 codename Triple Espresso
+      Set-Cookie:
+      - _dash-it_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJTdjMzZiMWY2YTg1OWFiZjExZTliM2Y2ZWZjODdiMzYwBjsAVEkiFG9tbmlhdXRoLnBhcmFtcwY7AEZ7AA%3D%3D--5efad23e1f835300dd88f6d61421c2ebb04d041e;
+        path=/; HttpOnly
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - 54b8a1419d65a7e26d6dfda349fcb081
+      X-Runtime:
+      - '0.001517'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '223'
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: Redirecting to https://graph.facebook.com/oauth/authorize?response_type=code&client_id=173966559389284&redirect_uri=http%3A%2F%2Fdash-it-app.herokuapp.com%2Fusers%2Fauth%2Ffacebook%2Fcallback&scope=email%2Coffline_access...
+    http_version: 
+  recorded_at: Tue, 04 Dec 2012 19:18:03 GMT
+- request:
+    method: get
+    uri: https://graph.facebook.com/oauth/authorize?client_id=173966559389284&redirect_uri=http://dash-it-app.herokuapp.com/users/auth/facebook/callback&response_type=code&scope=email,offline_access
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Location:
+      - https://www.facebook.com/dialog/permissions.request?app_id=173966559389284&display=page&next=http%3A%2F%2Fdash-it-app.herokuapp.com%2Fusers%2Fauth%2Ffacebook%2Fcallback&response_type=code&perms=email%2Coffline_access&fbconnect=1
+      Pragma:
+      - no-cache
+      X-Fb-Rev:
+      - '685282'
+      Content-Type:
+      - text/html; charset=utf-8
+      X-Fb-Debug:
+      - 87iK2jXzv7HYKT3aNrdR/JqIhB3AYCU3q8l4T5BjS54=
+      Date:
+      - Tue, 04 Dec 2012 19:18:10 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '0'
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Tue, 04 Dec 2012 19:18:03 GMT
+- request:
+    method: get
+    uri: https://www.facebook.com/dialog/permissions.request?app_id=173966559389284&display=page&fbconnect=1&next=http://dash-it-app.herokuapp.com/users/auth/facebook/callback&perms=email,offline_access&response_type=code
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Location:
+      - https://www.facebook.com/login.php?api_key=173966559389284&skip_api_login=1&display=page&cancel_url=http%3A%2F%2Fdash-it-app.herokuapp.com%2Fusers%2Fauth%2Ffacebook%2Fcallback%3Ferror_reason%3Duser_denied%26error%3Daccess_denied%26error_description%3DThe%2Buser%2Bdenied%2Byour%2Brequest.&fbconnect=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Fpermissions.request%3F_path%3Dpermissions.request%26app_id%3D173966559389284%26redirect_uri%3Dhttp%253A%252F%252Fdash-it-app.herokuapp.com%252Fusers%252Fauth%252Ffacebook%252Fcallback%26display%3Dpage%26response_type%3Dcode%26perms%3Demail%252Coffline_access%26fbconnect%3D1%26from_login%3D1%26client_id%3D173966559389284&rcount=1
+      P3p:
+      - ! 'CP="Facebook does not have a P3P policy. Learn why here: http://fb.me/p3p"'
+      Pragma:
+      - no-cache
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - '0'
+      Set-Cookie:
+      - datr=cky-UNRRv7i2OcCkhvv-e1mv; expires=Thu, 04-Dec-2014 19:18:10 GMT; path=/;
+        domain=.facebook.com; httponly
+      - locale=en_GB; expires=Tue, 11-Dec-2012 19:18:10 GMT; path=/; domain=.facebook.com
+      Content-Type:
+      - text/html; charset=utf-8
+      X-Fb-Debug:
+      - pQVq93YiYsMgGsqwcp/XnB/Da/YbnOxfmhPykVTT4Rg=
+      Date:
+      - Tue, 04 Dec 2012 19:18:10 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '0'
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Tue, 04 Dec 2012 19:18:03 GMT
+- request:
+    method: get
+    uri: https://www.facebook.com/login.php?api_key=173966559389284&cancel_url=http://dash-it-app.herokuapp.com/users/auth/facebook/callback?error_reason=user_denied%26error=access_denied%26error_description=The+user+denied+your+request.&display=page&fbconnect=1&next=https://www.facebook.com/dialog/permissions.request?_path=permissions.request%26app_id=173966559389284%26redirect_uri=http%253A%252F%252Fdash-it-app.herokuapp.com%252Fusers%252Fauth%252Ffacebook%252Fcallback%26display=page%26response_type=code%26perms=email%252Coffline_access%26fbconnect=1%26from_login=1%26client_id=173966559389284&rcount=1&skip_api_login=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      P3p:
+      - ! 'CP="Facebook does not have a P3P policy. Learn why here: http://fb.me/p3p"'
+      Pragma:
+      - no-cache
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Set-Cookie:
+      - datr=c0y-UGjzpXGwJe-KLT-yAJeQ; expires=Thu, 04-Dec-2014 19:18:11 GMT; path=/;
+        domain=.facebook.com; httponly
+      - reg_ext_ref=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.facebook.com
+      - reg_fb_gate=https%3A%2F%2Fwww.facebook.com%2Flogin.php%3Fapi_key%3D173966559389284%26skip_api_login%3D1%26display%3Dpage%26cancel_url%3Dhttp%253A%252F%252Fdash-it-app.herokuapp.com%252Fusers%252Fauth%252Ffacebook%252Fcallback%253Ferror_reason%253Duser_denied%2526error%253Daccess_denied%2526error_description%253DThe%252Buser%252Bdenied%252Byour%252Brequest.%26fbconnect%3D1%26next%3Dhttps%253A%252F%252Fwww.facebook.com%252Fdialog%252Fpermissions.request%253F_path%253Dpermissions.request%2526app_id%253D173966559389284%2526redirect_uri%253Dhttp%25253A%25252F%25252Fdash-it-app.herokuapp.com%25252Fusers%25252Fauth%25252Ffacebook%25252Fcallback%2526display%253Dpage%2526response_type%253Dcode%2526perms%253Demail%25252Coffline_access%2526fbconnect%253D1%2526from_login%253D1%2526client_id%253D173966559389284%26rcount%3D1;
+        path=/; domain=.facebook.com
+      - !binary |-
+        cmVnX2ZiX3JlZj1odHRwcyUzQSUyRiUyRnd3dy5mYWNlYm9vay5jb20lMkZs
+        b2dpbi5waHAlM0ZhcGlfa2V5JTNEMTczOTY2NTU5Mzg5Mjg0JTI2c2tpcF9h
+        cGlfbG9naW4lM0QxJTI2ZGlzcGxheSUzRHBhZ2UlMjZjYW5jZWxfdXJsJTNE
+        aHR0cCUyNTNBJTI1MkYlMjUyRmRhc2gtaXQtYXBwLmhlcm9rdWFwcC5jb20l
+        MjUyRnVzZXJzJTI1MkZhdXRoJTI1MkZmYWNlYm9vayUyNTJGY2FsbGJhY2sl
+        MjUzRmVycm9yX3JlYXNvbiUyNTNEdXNlcl9kZW5pZWQlMjUyNmVycm9yJTI1
+        M0RhY2Nlc3NfZGVuaWVkJTI1MjZlcnJvcl9kZXNjcmlwdGlvbiUyNTNEVGhl
+        JTI1MkJ1c2VyJTI1MkJkZW5pZWQlMjUyQnlvdXIlMjUyQnJlcXVlc3QuJTI2
+        ZmJjb25uZWN0JTNEMSUyNm5leHQlM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3
+        dy5mYWNlYm9vay5jb20lMjUyRmRpYWxvZyUyNTJGcGVybWlzc2lvbnMucmVx
+        dWVzdCUyNTNGX3BhdGglMjUzRHBlcm1pc3Npb25zLnJlcXVlc3QlMjUyNmFw
+        cF9pZCUyNTNEMTczOTY2NTU5Mzg5Mjg0JTI1MjZyZWRpcmVjdF91cmklMjUz
+        RGh0dHAlMjUyNTNBJTI1MjUyRiUyNTI1MkZkYXNoLWl0LWFwcC5oZXJva3Vh
+        cHAuY29tJTI1MjUyRnVzZXJzJTI1MjUyRmF1dGglMjUyNTJGZmFjZWJvb2sl
+        MjUyNTJGY2FsbGJhY2slMjUyNmRpc3BsYXklMjUzRHBhZ2UlMjUyNnJlc3Bv
+        bnNlX3R5cGUlMjUzRGNvZGUlMjUyNnBlcm1zJTI1M0RlbWFpbCUyNTI1MkNv
+        ZmZsaW5lX2FjY2VzcyUyNTI2ZmJjb25uZWN0JTI1M0QxJTI1MjZmcm9tX2xv
+        Z2luJTI1M0QxJTI1MjZjbGllbnRfaWQlMjUzRDE3Mzk2NjU1OTM4OTI4NCUy
+        NnJjb3VudCUzRDE7IHBhdGg9LzsgZG9tYWluPS5mYWNlYm9vay5jb20=
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04
+      !binary "WC1GYi1EZWJ1Zw==":
+      - !binary |-
+        R2JRNkxVQWJ1YTZiRktsZXBtcGZieWErYnpZb0Z6VE9id3RFb1NoMVUvdz0=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        VHVlLCAwNCBEZWMgMjAxMiAxOToxODoxMSBHTVQ=
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        Nzg0MQ==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA+1dW2/bSJZ+z69gc7sTaaKLJV9ix5EDyZZjOXbsWLLjJPYQ
+        FFmSaFMkw4tkOR1gsJinBfZtf0LPbbEPO8AAi3laYOYPzGPPW2Mf9nfsd6pI
+        irolSo8bO92jxkxM1u1UnTp1zqlTVH1Pvtg52m68Pq5KHb9rbt17Qn8kU7Xa
+        JZlZsmToJbmlaqxp29eypJmq55Vky1auPJkKM1XfetJlvippHdX1mF+SA7+V
+        XZel/NYTT3MNx99qBZbmG7YlMau3awZeJ6Wm38eJzZSGN9tN9VRX0iXDktS0
+        9la/LKn4Z/OD0Ur1DUu3+zmXvQsMlx2ot4P0+8RL6u2DqtV7cJlppjc/MNNj
+        7/FaCivh8euv33/YbKbwhPwP9+JOvJcDj7nyY3lJzsimrakmwwuzlGcVJGBM
+        HVtHwrNqA69ez1Jc1pMfr62vFteLGdk3eF1k9QwHD8uFXGE596iYe0SlfdU3
+        NKWpetRkx/cd7/FF/iLvZUVOTr3ORUzNaXb3Io9K/X4/WYNXQNpkQZc5iqm2
+        5cfoRqup6L6HZ7n8srLW3h5YaEm9Um8cw2GKb19jDpF33jlRWMVunQSts1tT
+        oQF3vA5yjssv906yltlDku+q2rVhtRXd7qoG1Rv23DFumDnSFVRwme8OFKKm
+        2JZiMb9vu9cKc12bWFNAiVbT0BXWtTFm2/J44of05pN8KBmRhCTmhKltk1UH
+        bNu2WgbG9V72GKN5WOqUURm1t9WearqDA7vdZm6ppWLGN8PZVkS7iqP6Hakk
+        yRd5024bVs7pOHKCqmVH9Lnk0iizJFy9EobUchk4I6G/PrMgzkub0unJQWnY
+        0lPVMZRrNigVHi1vrK2trm4sr28U11fuq11n07s2HIUKcMKlAk/UDc8x1UHJ
+        UduMJ2iqpTFTCVyzRMS/Wi5/VdzF/3TV62QNP6s6Tq7DXPs6oCcICPJIWD38
+        VQO/gz+R+OARkms2MXVfLe9y3kNQVc+2vlreoTqKziyD6V8V13gmUlVNY543
+        lo5XwRQsVJRpdNhXxQrVx5+ohcrADuidFh/z/BwfS6sJVllM88PBWuzG56Py
+        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
+        BLJzQix2RDkaFl/NpurTZYhgfZiDFuYelQY4EbrwfXyNHZLG5bqIfCBJFIOZ
+        BDYf7uHncuIaJp2HENof5saiFb4tWpubuuMaPUAV5NkNRgH4PH73diiQBxyH
+        T0Dw8Y6Ehbn0RRaAtIpoY26aAOVz8uKOOxj6KcTCvHE626LK3HQcG/fqocKQ
+        tYl1t5FYdz0DgE80QOi6rsAjjOpieA1KnJsoH1w8lwmCuLM8HOqZAXnl9PZQ
+        eKg16W0CKGgSkyQEYU2Av7Zahl4gvFptV3t2uu+2X3lZdrJv7L5YfpZ9tete
+        r533Xh7Xj8/Uq5NGtWDsLp8vL7157mp11m6887SX5sHJQdazHp29JPBZtFbk
+        rT2r93Vzh+l7ld4731DKRydu49Ht/qtyx7uttdZ7rj04626/XnL0anVjaee8
+        0t0/vXIaZn3pnf9au2pUw9aWeWvVcs3fVtxC5fnzDjtsFIunt7ftc6MXPNpR
+        N9aN6+UXy87xXm15u5NdUl7sNXW9uLLSfGQcrQ72yqfdd7frZ+2yrhaqhcbz
+        YsVfWlrZ2LAIgJc6vCKGf9NfXlrRu+WTk+obpdZfebXWWK3U/EeVnef6yk3v
+        +fOee3LjrC2Vj3r1R+We96Lsv9nbqNVa+8bJsVfr89aglABYvLy0vpwE3b33
+        Cci1BLoa7nA8CRX2oeoAK+z4tt1dI1Be0lboKQHeZejWbHzLQ+gxjwsAP3a1
+        EejgGTBxFzF02gWw9C4ApoeUiwk4vQ8Z+dRpXgN5eYzo9yWzwsmM4+mBTMtf
+        8mo/0NjKnOg4vB6InqMr7yY5+n0Ht8bpvDabtT3VtJSTaw7jBzpvbtZfYcJ+
+        kInb5kQLZfWg/WL7/NFqLyJ6tjPoTk7c3UiLwokuV5+btb3jyitTgC8SPvTH
+        5HfXqLy7SrABF/l/f4G95l1oeI/W6vXjxnpNJ3BD8HrpoH6IZRzz+m8iIlZF
+        thjsV4pVRd/IhkQM4/bs2V0R6XAiq7WDwcA93b6qGCGR9mGhAtTuuxlJmxM5
+        rO1WX2+01aXqVUjErq7s2HdFZIcTWVvVNo5eZY2V9UJIxDef+c/vishzTqRl
+        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
+        e/8HeJr++3yZAAA=
+    http_version: 
+  recorded_at: Tue, 04 Dec 2012 19:18:04 GMT
+- request:
+    method: get
+    uri: http://dash-it-app.herokuapp.com/users/auth/github
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Moved Temporarily
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Type:
+      - text/html
+      Date:
+      - Tue, 04 Dec 2012 19:18:11 GMT
+      Location:
+      - https://github.com/login/oauth/authorize?response_type=code&client_id=ea61001a854d944b08b7&redirect_uri=http%3A%2F%2Fdash-it-app.herokuapp.com%2Fusers%2Fauth%2Fgithub%2Fcallback&scope=user
+      Server:
+      - thin 1.3.1 codename Triple Espresso
+      Set-Cookie:
+      - _dash-it_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJTA1NDEwNDA5NWZhMTRmYzEzYWQzMTE0M2RkYTY2M2MyBjsAVEkiFG9tbmlhdXRoLnBhcmFtcwY7AEZ7AA%3D%3D--2cb43ec51bc0ba10abf69ff9b3564503489f6788;
+        path=/; HttpOnly
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - 1666c787a61ff686bf1e441b3e725883
+      X-Runtime:
+      - '0.001384'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '206'
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: Redirecting to https://github.com/login/oauth/authorize?response_type=code&client_id=ea61001a854d944b08b7&redirect_uri=http%3A%2F%2Fdash-it-app.herokuapp.com%2Fusers%2Fauth%2Fgithub%2Fcallback&scope=user...
+    http_version: 
+  recorded_at: Tue, 04 Dec 2012 19:18:04 GMT
+- request:
+    method: get
+    uri: https://github.com/login/oauth/authorize?client_id=ea61001a854d944b08b7&redirect_uri=http://dash-it-app.herokuapp.com/users/auth/github/callback&response_type=code&scope=user
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 04 Dec 2012 19:18:12 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Connection:
+      - keep-alive
+      Status:
+      - 302 Found
+      Location:
+      - https://github.com/login?return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3Dea61001a854d944b08b7%26redirect_uri%3Dhttp%253A%252F%252Fdash-it-app.herokuapp.com%252Fusers%252Fauth%252Fgithub%252Fcallback%26response_type%3Dcode%26scope%3Duser
+      Cache-Control:
+      - no-cache
+      X-Runtime:
+      - '3'
+      X-Frame-Options:
+      - deny
+      Strict-Transport-Security:
+      - max-age=2592000
+      Content-Length:
+      - '307'
+    body:
+      encoding: US-ASCII
+      string: <html><body>You are being <a href="https://github.com/login?return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3Dea61001a854d944b08b7%26redirect_uri%3Dhttp%253A%252F%252Fdash-it-app.herokuapp.com%252Fusers%252Fauth%252Fgithub%252Fcallback%26response_type%3Dcode%26scope%3Duser">redirected</a>.</body></html>
+    http_version: 
+  recorded_at: Tue, 04 Dec 2012 19:18:05 GMT
+- request:
+    method: get
+    uri: https://github.com/login?return_to=/login/oauth/authorize?client_id=ea61001a854d944b08b7%26redirect_uri=http%253A%252F%252Fdash-it-app.herokuapp.com%252Fusers%252Fauth%252Fgithub%252Fcallback%26response_type=code%26scope=user
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "U2VydmVy":
+      - !binary |-
+        bmdpbng=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        VHVlLCAwNCBEZWMgMjAxMiAxOToxODoxMiBHTVQ=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+      !binary "U3RhdHVz":
+      - !binary |-
+        MjAwIE9L
+      !binary "RXRhZw==":
+      - !binary |-
+        IjViMzJmZDBjMDllMmMxNjQ4OTYwMGQ3MzhiNWMxZDk2Ig==
+      !binary "U3RyaWN0LVRyYW5zcG9ydC1TZWN1cml0eQ==":
+      - !binary |-
+        bWF4LWFnZT0yNTkyMDAw
+      !binary "U2V0LUNvb2tpZQ==":
+      - !binary |-
+        X2doX3Nlc3M9QkFoN0J6b1FYMk56Y21aZmRHOXJaVzRpTVU1UU5IQklTVUZT
+        TlZkeFEwaHZRbmhOVGk5NVdWWnZMMlpNT0ZCQ2RUSmxPSEExUjA5cEwxUm9Z
+        V2M5T2c5elpYTnphVzl1WDJsa0lpVTNPREEwWVdFNE5UY3hZV0ZtT0RNNE1U
+        SXlOakV4TUdReU1UY3lZMk13T0ElM0QlM0QtLTk2MTQ0NWJkYmE3Yzc5YjY5
+        MjRkODNiZDNjYTczOGZkMzk2Yjg4N2M7IHBhdGg9LzsgZXhwaXJlcz1TYXQs
+        IDAxLUphbi0yMDIyIDAwOjAwOjAwIEdNVDsgc2VjdXJlOyBIdHRwT25seQ==
+      !binary "WC1SdW50aW1l":
+      - !binary |-
+        OQ==
+      !binary "WC1GcmFtZS1PcHRpb25z":
+      - !binary |-
+        ZGVueQ==
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        bm8tY2FjaGUsIG5vLXN0b3Jl
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+        psuAdM9I/9jO3wEgBuHphEcAAA==
+    http_version: 
+  recorded_at: Tue, 04 Dec 2012 19:18:05 GMT
+- request:
+    method: get
+    uri: http://dash-it-app.herokuapp.com/sessions/forgot_password
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Tue, 04 Dec 2012 19:18:12 GMT
+      Server:
+      - thin 1.3.1 codename Triple Espresso
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - 56e0bf9aeabd070810c9193b6e275215
+      X-Runtime:
+      - '0.009583'
+      Content-Length:
+      - '728'
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE html>\n<html>\n<head>\n  <title>The page you were looking
+        for doesn't exist (404)</title>\n  <style type=\"text/css\">\n    body { background-color:
+        #fff; color: #666; text-align: center; font-family: arial, sans-serif; }\n
+        \   div.dialog {\n      width: 25em;\n      padding: 0 4em;\n      margin:
+        4em auto 0 auto;\n      border: 1px solid #ccc;\n      border-right-color:
+        #999;\n      border-bottom-color: #999;\n    }\n    h1 { font-size: 100%;
+        color: #f00; line-height: 1.5em; }\n  </style>\n</head>\n\n<body>\n  <!--
+        This file lives in public/404.html -->\n  <div class=\"dialog\">\n    <h1>The
+        page you were looking for doesn't exist.</h1>\n    <p>You may have mistyped
+        the address or the page may have moved.</p>\n  </div>\n</body>\n</html>\n"
+    http_version: 
+  recorded_at: Tue, 04 Dec 2012 19:18:05 GMT
+- request:
+    method: get
+    uri: http://dash-it-app.herokuapp.com/users/sign_in
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Tue, 04 Dec 2012 19:18:13 GMT
+      Etag:
+      - ! '"be36ff860c22e10d58b975053c0c8348"'
+      Server:
+      - thin 1.3.1 codename Triple Espresso
+      Set-Cookie:
+      - _dash-it_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJTg3YzNkNTk1MWYxZTNkY2IzYTIxZmVhNDk3YTNmNGFjBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMUg4UHIxTm1wMlV5bW1RY0dpNktJZS9FOTRhbS9SYklwVUMwcnp6ajM4MTQ9BjsARg%3D%3D--c5e2163c7402e36e039ff74a5104169fef3eddbb;
+        path=/; HttpOnly
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - 09774fefa28f44fd11b8ebf6305ffd6f
+      X-Runtime:
+      - '0.048238'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '2907'
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE html>\n<html>\n<head>\n  <title>DashIt</title>\n  <link
+        href=\"/assets/application-218e261a28dfbc4a5d182e1d74cfa56d.css\" media=\"all\"
+        rel=\"stylesheet\" type=\"text/css\" />\n  <script src=\"/assets/application-8e2ee2948692900aca4cfa8a45d9478f.js\"
+        type=\"text/javascript\"></script>\n  <meta content=\"authenticity_token\"
+        name=\"csrf-param\" />\n<meta content=\"H8Pr1Nmp2UymmQcGi6KIe/E94am/RbIpUC0rzzj3814=\"
+        name=\"csrf-token\" />\n  <script type=\"text/javascript\">\n\n  var _gaq
+        = _gaq || [];\n  _gaq.push(['_setAccount', 'UA-30124350-1']);\n  _gaq.push(['_trackPageview']);\n\n
+        \ (function() {\n    var ga = document.createElement('script'); ga.type =
+        'text/javascript'; ga.async = true;\n    ga.src = ('https:' == document.location.protocol
+        ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n    var
+        s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga,
+        s);\n  })();\n\n</script>\n\n  <meta name=\"viewport\" content=\"width=device-width,
+        initial-scale=1.0\">\n</head>\n<body>\n  <div class=\"container\">\n    <div
+        class=\"row\">\n</div>\n\n    <div id=\"content_wrapper\">\n        <header
+        class=\"jumbotron masthead\">\n          <div class=\"marketing\">\n            <h1>Dash
+        It</h1>\n            <p>simple todos organiser</p>\n          </div>\n        </header>\n
+        \     <div class=\"row equal-heights\" style=\"text-align: center;\">\n  <div
+        class=\"span4 offset4\">\n\n    <form accept-charset=\"UTF-8\" action=\"/users/sign_in\"
+        class=\"form-inline\" id=\"new_user\" method=\"post\"><div style=\"margin:0;padding:0;display:inline\"><input
+        name=\"utf8\" type=\"hidden\" value=\"&#x2713;\" /><input name=\"authenticity_token\"
+        type=\"hidden\" value=\"H8Pr1Nmp2UymmQcGi6KIe/E94am/RbIpUC0rzzj3814=\" /></div>\n
+        \     \n      <fieldset>\n        <legend>Sign in</legend>\n        <br/>\n
+        \       <div class=\"control-group\">\n          <div class=\"controls\">\n
+        \           <input id=\"user_email\" name=\"user[email]\" placeholder=\"email\"
+        size=\"30\" type=\"email\" value=\"\" />\n          </div>\n        </div>\n
+        \       <div class=\"control-group\">\n          <div class=\"controls\">\n
+        \           <input id=\"user_password\" name=\"user[password]\" placeholder=\"password\"
+        size=\"30\" type=\"password\" />\n          </div>\n        </div>\n        <div
+        class=\"control-group\">\n          <div class=\"controls\">\n            <input
+        class=\"btn btn-primary\" name=\"commit\" type=\"submit\" value=\"Sign in\"
+        />\n          </div>\n            <br/>\n            <p class=\"help-block\">or
+        sign in with</p>\n            <br/>\n              <a href=\"/users/auth/github\"><img
+        alt=\"Github_32\" src=\"/assets/github_32-ba5dc7eee4765074155e76a524060552.png\"
+        /></a>\n              <a href=\"/users/auth/facebook\"><img alt=\"Facebook_32\"
+        src=\"/assets/facebook_32-9413ef3b6297484f5fc8d19879dec8cc.png\" /></a>\n
+        \       </div>\n      </fieldset>\n</form>    \n  <a href=\"/users/sign_up\">Sign
+        up</a><br />\n\n  <a href=\"/users/password/new\">Forgot your password?</a><br
+        />\n\n\n\n  </div>\n</div>\n\n    </div>\n  </div>\n</body>\n</html>\n"
+    http_version: 
+  recorded_at: Tue, 04 Dec 2012 19:18:06 GMT
+- request:
+    method: get
+    uri: http://dash-it-app.herokuapp.com/users/sign_up
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Tue, 04 Dec 2012 19:18:13 GMT
+      Etag:
+      - ! '"244ade8d0646ec88f0ab91fd86598bc8"'
+      Server:
+      - thin 1.3.1 codename Triple Espresso
+      Set-Cookie:
+      - _dash-it_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJWI1MGVhNjAwM2I1YTNiMmMzNGVlODEyOTdjNzYxMmNkBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMTBHc0dIaWFWN3J0WXVJdmNwczVnSVhYOE5POTIzOXUrRXpOZ1FQbjJLMGM9BjsARg%3D%3D--f6f0681845b0960010fe27183969c093cf7a8b17;
+        path=/; HttpOnly
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - 88a6ac0dbdcdf060b0a2748c76708db5
+      X-Runtime:
+      - '0.016589'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '2792'
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE html>\n<html>\n<head>\n  <title>DashIt</title>\n  <link
+        href=\"/assets/application-218e261a28dfbc4a5d182e1d74cfa56d.css\" media=\"all\"
+        rel=\"stylesheet\" type=\"text/css\" />\n  <script src=\"/assets/application-8e2ee2948692900aca4cfa8a45d9478f.js\"
+        type=\"text/javascript\"></script>\n  <meta content=\"authenticity_token\"
+        name=\"csrf-param\" />\n<meta content=\"0GsGHiaV7rtYuIvcps5gIXX8NO9239u+EzNgQPn2K0c=\"
+        name=\"csrf-token\" />\n  <script type=\"text/javascript\">\n\n  var _gaq
+        = _gaq || [];\n  _gaq.push(['_setAccount', 'UA-30124350-1']);\n  _gaq.push(['_trackPageview']);\n\n
+        \ (function() {\n    var ga = document.createElement('script'); ga.type =
+        'text/javascript'; ga.async = true;\n    ga.src = ('https:' == document.location.protocol
+        ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n    var
+        s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga,
+        s);\n  })();\n\n</script>\n\n  <meta name=\"viewport\" content=\"width=device-width,
+        initial-scale=1.0\">\n</head>\n<body>\n  <div class=\"container\">\n    <div
+        class=\"row\">\n</div>\n\n    <div id=\"content_wrapper\">\n        <header
+        class=\"jumbotron masthead\">\n          <div class=\"marketing\">\n            <h1>Dash
+        It</h1>\n            <p>simple todos organiser</p>\n          </div>\n        </header>\n
+        \     <div class=\"row equal-heights\" style=\"text-align: center;\">\n  <div
+        class=\"span4 offset4\">\n\n    <form accept-charset=\"UTF-8\" action=\"/users\"
+        class=\"form-inline\" id=\"new_user\" method=\"post\"><div style=\"margin:0;padding:0;display:inline\"><input
+        name=\"utf8\" type=\"hidden\" value=\"&#x2713;\" /><input name=\"authenticity_token\"
+        type=\"hidden\" value=\"0GsGHiaV7rtYuIvcps5gIXX8NO9239u+EzNgQPn2K0c=\" /></div>\n
+        \     \n      <fieldset>\n        <legend>Sign up</legend>\n        <br/>\n
+        \       <div class=\"control-group\">\n          <div class=\"controls\">\n
+        \           <input id=\"user_email\" name=\"user[email]\" placeholder=\"email\"
+        size=\"30\" type=\"email\" value=\"\" />\n          </div>\n        </div>\n
+        \       <div class=\"control-group\">\n          <div class=\"controls\">\n
+        \           <input id=\"user_password\" name=\"user[password]\" placeholder=\"password\"
+        size=\"30\" type=\"password\" />\n          </div>\n        </div>\n        <div
+        class=\"control-group\">\n          <div class=\"controls\">\n            <input
+        id=\"user_password_confirmation\" name=\"user[password_confirmation]\" placeholder=\"password
+        confirmation\" size=\"30\" type=\"password\" />\n          </div>\n        </div>\n
+        \       <div class=\"control-group\">\n          <div class=\"controls\">\n
+        \           <input class=\"btn btn-primary\" name=\"commit\" type=\"submit\"
+        value=\"Sign up\" />\n          </div>\n        </div>\n      </fieldset>\n</form>
+        \     <a href=\"/users/sign_in\">Sign in</a><br />\n\n\n  <a href=\"/users/password/new\">Forgot
+        your password?</a><br />\n\n\n\n  </div>\n</div>\n\n\n    </div>\n  </div>\n</body>\n</html>\n"
+    http_version: 
+  recorded_at: Tue, 04 Dec 2012 19:18:06 GMT
+- request:
+    method: get
+    uri: http://dash-it-app.herokuapp.com/users/auth/facebook
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Moved Temporarily
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Type:
+      - text/html
+      Date:
+      - Tue, 04 Dec 2012 19:18:13 GMT
+      Location:
+      - https://graph.facebook.com/oauth/authorize?response_type=code&client_id=173966559389284&redirect_uri=http%3A%2F%2Fdash-it-app.herokuapp.com%2Fusers%2Fauth%2Ffacebook%2Fcallback&scope=email%2Coffline_access
+      Server:
+      - thin 1.3.1 codename Triple Espresso
+      Set-Cookie:
+      - _dash-it_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJTRkYzAxY2I1MTllMGY1OWQ3MmEwYjI0Nzc4NDdkMWVlBjsAVEkiFG9tbmlhdXRoLnBhcmFtcwY7AEZ7AA%3D%3D--ea7415268dbe2eb117aed59430fa64c539e8bbbf;
+        path=/; HttpOnly
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - 4e1c8562b3508172bcaaa3cd7f767cdc
+      X-Runtime:
+      - '0.001465'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '223'
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: Redirecting to https://graph.facebook.com/oauth/authorize?response_type=code&client_id=173966559389284&redirect_uri=http%3A%2F%2Fdash-it-app.herokuapp.com%2Fusers%2Fauth%2Ffacebook%2Fcallback&scope=email%2Coffline_access...
+    http_version: 
+  recorded_at: Tue, 04 Dec 2012 19:18:06 GMT
+- request:
+    method: get
+    uri: https://graph.facebook.com/oauth/authorize?client_id=173966559389284&redirect_uri=http://dash-it-app.herokuapp.com/users/auth/facebook/callback&response_type=code&scope=email,offline_access
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Location:
+      - https://www.facebook.com/dialog/permissions.request?app_id=173966559389284&display=page&next=http%3A%2F%2Fdash-it-app.herokuapp.com%2Fusers%2Fauth%2Ffacebook%2Fcallback&response_type=code&perms=email%2Coffline_access&fbconnect=1
+      Pragma:
+      - no-cache
+      X-Fb-Rev:
+      - '685282'
+      Content-Type:
+      - text/html; charset=utf-8
+      X-Fb-Debug:
+      - sxeivcE/5fqqYqMnmVVP/cYDdGtLxEhNw8VFDGpxgXM=
+      Date:
+      - Tue, 04 Dec 2012 19:18:14 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '0'
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Tue, 04 Dec 2012 19:18:07 GMT
+- request:
+    method: get
+    uri: https://www.facebook.com/dialog/permissions.request?app_id=173966559389284&display=page&fbconnect=1&next=http://dash-it-app.herokuapp.com/users/auth/facebook/callback&perms=email,offline_access&response_type=code
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Location:
+      - https://www.facebook.com/login.php?api_key=173966559389284&skip_api_login=1&display=page&cancel_url=http%3A%2F%2Fdash-it-app.herokuapp.com%2Fusers%2Fauth%2Ffacebook%2Fcallback%3Ferror_reason%3Duser_denied%26error%3Daccess_denied%26error_description%3DThe%2Buser%2Bdenied%2Byour%2Brequest.&fbconnect=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Fpermissions.request%3F_path%3Dpermissions.request%26app_id%3D173966559389284%26redirect_uri%3Dhttp%253A%252F%252Fdash-it-app.herokuapp.com%252Fusers%252Fauth%252Ffacebook%252Fcallback%26display%3Dpage%26response_type%3Dcode%26perms%3Demail%252Coffline_access%26fbconnect%3D1%26from_login%3D1%26client_id%3D173966559389284&rcount=1
+      P3p:
+      - ! 'CP="Facebook does not have a P3P policy. Learn why here: http://fb.me/p3p"'
+      Pragma:
+      - no-cache
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - '0'
+      Set-Cookie:
+      - datr=dky-UPKeoTGa9vXlyEkX4Cu4; expires=Thu, 04-Dec-2014 19:18:14 GMT; path=/;
+        domain=.facebook.com; httponly
+      - locale=en_GB; expires=Tue, 11-Dec-2012 19:18:14 GMT; path=/; domain=.facebook.com
+      Content-Type:
+      - text/html; charset=utf-8
+      X-Fb-Debug:
+      - ZghYt5Z5iS6lPQzFw8mHKN3hmqxCMEp4+f4usduEDms=
+      Date:
+      - Tue, 04 Dec 2012 19:18:14 GMT
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '0'
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: 
+  recorded_at: Tue, 04 Dec 2012 19:18:07 GMT
+- request:
+    method: get
+    uri: https://www.facebook.com/login.php?api_key=173966559389284&cancel_url=http://dash-it-app.herokuapp.com/users/auth/facebook/callback?error_reason=user_denied%26error=access_denied%26error_description=The+user+denied+your+request.&display=page&fbconnect=1&next=https://www.facebook.com/dialog/permissions.request?_path=permissions.request%26app_id=173966559389284%26redirect_uri=http%253A%252F%252Fdash-it-app.herokuapp.com%252Fusers%252Fauth%252Ffacebook%252Fcallback%26display=page%26response_type=code%26perms=email%252Coffline_access%26fbconnect=1%26from_login=1%26client_id=173966559389284&rcount=1&skip_api_login=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      P3p:
+      - ! 'CP="Facebook does not have a P3P policy. Learn why here: http://fb.me/p3p"'
+      Pragma:
+      - no-cache
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Set-Cookie:
+      - datr=dky-UOrMR74WPqSsPjA2Uc-0; expires=Thu, 04-Dec-2014 19:18:14 GMT; path=/;
+        domain=.facebook.com; httponly
+      - reg_ext_ref=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.facebook.com
+      - reg_fb_gate=https%3A%2F%2Fwww.facebook.com%2Flogin.php%3Fapi_key%3D173966559389284%26skip_api_login%3D1%26display%3Dpage%26cancel_url%3Dhttp%253A%252F%252Fdash-it-app.herokuapp.com%252Fusers%252Fauth%252Ffacebook%252Fcallback%253Ferror_reason%253Duser_denied%2526error%253Daccess_denied%2526error_description%253DThe%252Buser%252Bdenied%252Byour%252Brequest.%26fbconnect%3D1%26next%3Dhttps%253A%252F%252Fwww.facebook.com%252Fdialog%252Fpermissions.request%253F_path%253Dpermissions.request%2526app_id%253D173966559389284%2526redirect_uri%253Dhttp%25253A%25252F%25252Fdash-it-app.herokuapp.com%25252Fusers%25252Fauth%25252Ffacebook%25252Fcallback%2526display%253Dpage%2526response_type%253Dcode%2526perms%253Demail%25252Coffline_access%2526fbconnect%253D1%2526from_login%253D1%2526client_id%253D173966559389284%26rcount%3D1;
+        path=/; domain=.facebook.com
+      - !binary |-
+        cmVnX2ZiX3JlZj1odHRwcyUzQSUyRiUyRnd3dy5mYWNlYm9vay5jb20lMkZs
+        b2dpbi5waHAlM0ZhcGlfa2V5JTNEMTczOTY2NTU5Mzg5Mjg0JTI2c2tpcF9h
+        cGlfbG9naW4lM0QxJTI2ZGlzcGxheSUzRHBhZ2UlMjZjYW5jZWxfdXJsJTNE
+        aHR0cCUyNTNBJTI1MkYlMjUyRmRhc2gtaXQtYXBwLmhlcm9rdWFwcC5jb20l
+        MjUyRnVzZXJzJTI1MkZhdXRoJTI1MkZmYWNlYm9vayUyNTJGY2FsbGJhY2sl
+        MjUzRmVycm9yX3JlYXNvbiUyNTNEdXNlcl9kZW5pZWQlMjUyNmVycm9yJTI1
+        M0RhY2Nlc3NfZGVuaWVkJTI1MjZlcnJvcl9kZXNjcmlwdGlvbiUyNTNEVGhl
+        JTI1MkJ1c2VyJTI1MkJkZW5pZWQlMjUyQnlvdXIlMjUyQnJlcXVlc3QuJTI2
+        ZmJjb25uZWN0JTNEMSUyNm5leHQlM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3
+        dy5mYWNlYm9vay5jb20lMjUyRmRpYWxvZyUyNTJGcGVybWlzc2lvbnMucmVx
+        dWVzdCUyNTNGX3BhdGglMjUzRHBlcm1pc3Npb25zLnJlcXVlc3QlMjUyNmFw
+        cF9pZCUyNTNEMTczOTY2NTU5Mzg5Mjg0JTI1MjZyZWRpcmVjdF91cmklMjUz
+        RGh0dHAlMjUyNTNBJTI1MjUyRiUyNTI1MkZkYXNoLWl0LWFwcC5oZXJva3Vh
+        cHAuY29tJTI1MjUyRnVzZXJzJTI1MjUyRmF1dGglMjUyNTJGZmFjZWJvb2sl
+        MjUyNTJGY2FsbGJhY2slMjUyNmRpc3BsYXklMjUzRHBhZ2UlMjUyNnJlc3Bv
+        bnNlX3R5cGUlMjUzRGNvZGUlMjUyNnBlcm1zJTI1M0RlbWFpbCUyNTI1MkNv
+        ZmZsaW5lX2FjY2VzcyUyNTI2ZmJjb25uZWN0JTI1M0QxJTI1MjZmcm9tX2xv
+        Z2luJTI1M0QxJTI1MjZjbGllbnRfaWQlMjUzRDE3Mzk2NjU1OTM4OTI4NCUy
+        NnJjb3VudCUzRDE7IHBhdGg9LzsgZG9tYWluPS5mYWNlYm9vay5jb20=
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04
+      !binary "WC1GYi1EZWJ1Zw==":
+      - !binary |-
+        TjQzWnRqd0pvYjR5enkvcUFVZkdqeEtGQmJibU9iVmQvczV4NGZDY0pXdz0=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        VHVlLCAwNCBEZWMgMjAxMiAxOToxODoxNCBHTVQ=
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NzgzOA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA+1dW2/bSJZ+z69gc7sTaSJLlnyJL5EDyZZtOXbsWHLsJPYQ
+        FFmSaFEkw4tlOR1gsJinBfZtf0LPbbEPO8AAi3laYOYPzGPPW2Mf9nfsd6pI
+        irolSo8bO92jxkxM1u1UnTq3OkWd8/SLnePt+uuTitT2u+bWg6f0RzJVq1WU
+        mSVLhl6Um6rGGrbdkSXNVD2vKFu2cu3J1Jip+tbTLvNVSWurrsf8ohz4zYU1
+        WcptPfU013D8rWZgab5hWxKzbnbNwGun1PT7uLCR0vBmu6kb1ZV0ybAkNa29
+        1a+KKv7Z/GA0Uz3D0u1e1mXvAsNlh+pdP/0+8ZJ6+6hi3Ty6yjTSmx+Y6bH3
+        eC2GnfD49dfvP2w2UnhC/YcH8STey4HHXHlDXpQzsmlrqsnwwixlr4wCrKlt
+        6yjYq9Tx6t1Yistu5I3VtZXCWiEj+wbvi6obw8HDUj6bX8o+KWSfUGtf9Q1N
+        aageDdn2fcfbuMxd5rwFUZNVO9kIqVnN7l7m0KnX6yV78A4oG2/oMkcx1Za8
+        gWk0G4rue3iWSy/Lq63tvoWR1Gv11jEcpvh2B3uIuov2qcLKdvM0aL66MxVa
+        cNtro+ao9HK//fyls4Qi31W1jmG1FN3uqgb1G8zcMW6ZOTQVdHCZ7/YVgqbY
+        lmIxv2e7HYW5rk2oyaNFs2HoCuvaWLNtebzwQ3rzaS6kjIhCEnvC1JbJKn22
+        bVtNA+t6L3uM0T4s2tXn8gf03lZvVNPtH9qtFnOLTRU7vhnutiLGVRzVb0tF
+        Sb7MmXbLsLJO25ETUC07gs8pl1a5QMR1U8SSmi4DZiTM12cWyHlxUzo7PSwO
+        RnqmOobSYf1i/snS+urqysr60tp6YW35odp1Nr2O4SjUgAMu5nmhbniOqfaL
+        jtpivEBTLY2ZSuCaRQL+1VLpq8Iu/qerXnvB8BdUx8m2mWt3AnoCgaCOiNXD
+        XzXw2/gTkQ8eQblmA1v31dIuxz0IVfVs66ulHeqj6MwymP5VYZVXolTVNOZ5
+        I+V4FUgBo6JNvc2+KpSpP/5EI5T7dkDvxHzM87N8Lc0GUGUxzQ8Xa7Fbn6/K
+        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
+        KWUz3qmOhOrmZ+yqQPikcfhOTV3c5I2aoHanav0JOpay1M0s13EzoXVOWRMf
+        L4yvd5L+x70H6cw69cOFyMyA9iHm6XYYgVr8I6SimLmjjly7mr/QcEnKLEDu
+        3fYXNBXp9qaNAN4XGVI3VNJ0C5Q4faqovCKzC1fMPFfQ1qfcmPQtBm4MU3KV
+        J4oyD2qHNs/4nc4ihbd+bME8C5Ne04VVPzUwziK6FT6Wq88AmjQKcZ/dNFqB
+        y+imBqNHnC3cmZG/EaMnO+m4K0bb6x33sYY2/Tf+rkYzePDgwUcW1Iann5JS
+        4fbfPajB/qRE5LCbyOR8K3fXVteX1wtKHgMmMnZnCleZQWUhqgxT8A3XLo11
+        Bb0h+yBkAgdRVq071eDGa0vOvL3KvJePShdKrfqmAp/wIv6DdYiC81K1Dpe0
+        KNg+Pjo5rdRq1eMXSn0fT/vHh7Db16guzGxIdPO3DAT6wtc1mCJnD7rYj0YU
+        M1mimaBRC58UAJSmQlG7fWGNZ+RrD+jilol47xpWHzmNug5Mep7cNSy3bN9o
+        GriCFQaqaEyJShXP4V7x0RJ8XdQIwI+inD5OEtnTw2PAhytMN9xujl6e2p2k
+        I+dKZGbDnDJIs4RUh4ktpP2N9ppM6bfvZUWBQE0QwAdszHBZQSZob8El+GkR
+        bCvmU+JRm+gEWWxOcTaBixTow2DI/c3P0zjRly9zGDf1Npv54tnlpXf19c/T
+        6IyKymjFl2lyiSK5Aa6khPV+maMP1xfzqezP0qlHXz/8p8Wl9c00T3GDwmcb
+        gyJqwccTdV/mvyyEzb4kggS4sNPbn4uHK7TnD5c5up3oNhQkofOxGNiqqct4
+        mLCNLOZ8efnzy8tbgMYo9PcqnXpWjJ5/xoswi+R4AZkRyfHCkT4yHczmGsQl
+        ZBfOjxznJ0iiTkLpoMbZS9VLlk7GPsSWwLm8AyIaluFTO26rJjaQ9xqT3zGt
+        gMQDaA/LrwkDApdRJjbdwSW5W+3SBfOGPMjGBUMZzQwtq3aG7pHHrm6Ex2rh
+        pHRxsqAz47qSbRlNIiyazTYlBYPaAhETL1ERUXxJUDwnubNSHfdJCfEBagvU
+        DfBDUzU9YhF1w0i+6MkXTJo3E0itcRSfIJuGWKMAAIBnp9UarvhNdsqLCVOL
+        WRBLgXcbndJ24Pl2V3QYnRjmBfdreCQTf/nxPdxWAiZWt490f/gMhK85eZR7
+        AS2puoQQUstXV+ROeGBbRAKnUUrSnQqE43apXtlJNQOLDyel0u+/TA1yHaez
+        PCOqVJT8OwXcqgW4wGep/NLK8uoyCf00DTzbuD18hGH3uGrEnJCNBN+Lam3k
+        i+LDY3Wb9zQW36rPGIxLxxZIVuum0mE/tQlpMgu2Ej4aar4N2Q0FC8UIHTvd
+        WLnKSBHKgXFJNFSEVaNwqwbYhlWTkhfljCRrCs1RTkvAECEpNlHCi9Yto5n6
+        IsRvi6Xjp2IMRE2/F2nDJd3WAtLc2RbzK0KJl/tVPaVi6M2wp9jQSb0Ts75R
+        8V1FEYbHI54z7FE6o/E3yoL5KL2J3N7vMa3Gw4dfNAQVpd83sk1A9wjLSGPC
+        JNRraW1QCAWntVN6mjp+kdKzSBXeYG6xuFDIL6+uFVbzT9bSaR8005P0zQ/h
+        gtSHD9Us5UNLidnTOj6Ez1mxkvRmTOCO7WCp76OFQnvylcf1SE6KDgoSDlus
+        F6YXpA6YERAmvqtIPRIb8ij99dfJQq/7KB0hnzISEkcV1cTgDbAe9hfqlThA
+        WErhFxwEA2IEShI2lmrGHAnymDKlzQ+ZFQgXTD5BD7mGrfdhuebaftfcevB/
+        d9kE9HyZAAA=
+    http_version: 
+  recorded_at: Tue, 04 Dec 2012 19:18:08 GMT
+- request:
+    method: get
+    uri: http://dash-it-app.herokuapp.com/users/auth/github
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Moved Temporarily
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Type:
+      - text/html
+      Date:
+      - Tue, 04 Dec 2012 19:18:15 GMT
+      Location:
+      - https://github.com/login/oauth/authorize?response_type=code&client_id=ea61001a854d944b08b7&redirect_uri=http%3A%2F%2Fdash-it-app.herokuapp.com%2Fusers%2Fauth%2Fgithub%2Fcallback&scope=user
+      Server:
+      - thin 1.3.1 codename Triple Espresso
+      Set-Cookie:
+      - _dash-it_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJWM1ZTdiNzhhMmU1MGUzZjczNGUzMTM3YjJkNzFmM2M0BjsAVEkiFG9tbmlhdXRoLnBhcmFtcwY7AEZ7AA%3D%3D--16d2c2697ef88403d86035256aa3e7875cbd83a7;
+        path=/; HttpOnly
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - 0920fea77d02b54d73112ab907880335
+      X-Runtime:
+      - '0.001651'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '206'
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: Redirecting to https://github.com/login/oauth/authorize?response_type=code&client_id=ea61001a854d944b08b7&redirect_uri=http%3A%2F%2Fdash-it-app.herokuapp.com%2Fusers%2Fauth%2Fgithub%2Fcallback&scope=user...
+    http_version: 
+  recorded_at: Tue, 04 Dec 2012 19:18:08 GMT
+- request:
+    method: get
+    uri: https://github.com/login/oauth/authorize?client_id=ea61001a854d944b08b7&redirect_uri=http://dash-it-app.herokuapp.com/users/auth/github/callback&response_type=code&scope=user
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 04 Dec 2012 19:18:16 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Connection:
+      - keep-alive
+      Status:
+      - 302 Found
+      Location:
+      - https://github.com/login?return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3Dea61001a854d944b08b7%26redirect_uri%3Dhttp%253A%252F%252Fdash-it-app.herokuapp.com%252Fusers%252Fauth%252Fgithub%252Fcallback%26response_type%3Dcode%26scope%3Duser
+      Cache-Control:
+      - no-cache
+      X-Runtime:
+      - '3'
+      X-Frame-Options:
+      - deny
+      Strict-Transport-Security:
+      - max-age=2592000
+      Content-Length:
+      - '307'
+    body:
+      encoding: US-ASCII
+      string: <html><body>You are being <a href="https://github.com/login?return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3Dea61001a854d944b08b7%26redirect_uri%3Dhttp%253A%252F%252Fdash-it-app.herokuapp.com%252Fusers%252Fauth%252Fgithub%252Fcallback%26response_type%3Dcode%26scope%3Duser">redirected</a>.</body></html>
+    http_version: 
+  recorded_at: Tue, 04 Dec 2012 19:18:09 GMT
+- request:
+    method: get
+    uri: https://github.com/login?return_to=/login/oauth/authorize?client_id=ea61001a854d944b08b7%26redirect_uri=http%253A%252F%252Fdash-it-app.herokuapp.com%252Fusers%252Fauth%252Fgithub%252Fcallback%26response_type=code%26scope=user
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "U2VydmVy":
+      - !binary |-
+        bmdpbng=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        VHVlLCAwNCBEZWMgMjAxMiAxOToxODoxNiBHTVQ=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+      !binary "U3RhdHVz":
+      - !binary |-
+        MjAwIE9L
+      !binary "U3RyaWN0LVRyYW5zcG9ydC1TZWN1cml0eQ==":
+      - !binary |-
+        bWF4LWFnZT0yNTkyMDAw
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        bm8tY2FjaGUsIG5vLXN0b3Jl
+      !binary "WC1GcmFtZS1PcHRpb25z":
+      - !binary |-
+        ZGVueQ==
+      !binary "U2V0LUNvb2tpZQ==":
+      - !binary |-
+        X2doX3Nlc3M9QkFoN0J6b1FYMk56Y21aZmRHOXJaVzRpTVVVclRHSjVUVEV2
+        YVVGUWRUTkpPRFl6T0dSM1FsaGlMMUZhWWpoc1FYSmlSV3BSYkc5a09Vb3dW
+        bU05T2c5elpYTnphVzl1WDJsa0lpVmpOR0V6TkRkaU1HRmhOR0U0TjJRelpE
+        YzNNemhsTVdVellXRmtPRE5qT1ElM0QlM0QtLTg4NGU1MzViMjczYjdkYzlm
+        Mjc4NmQzNGNmN2M0N2ZiOTJmOTYxMDA7IHBhdGg9LzsgZXhwaXJlcz1TYXQs
+        IDAxLUphbi0yMDIyIDAwOjAwOjAwIEdNVDsgc2VjdXJlOyBIdHRwT25seQ==
+      !binary "WC1SdW50aW1l":
+      - !binary |-
+        OQ==
+      !binary "RXRhZw==":
+      - !binary |-
+        IjcyNGMwYjk0OGFjODEwOGRkOTgwYjYwMDMzMzE4ZmUwIg==
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+        Rvqndv4fGSpZZ4JHAAA=
+    http_version: 
+  recorded_at: Tue, 04 Dec 2012 19:18:09 GMT
+recorded_with: VCR 2.3.0
